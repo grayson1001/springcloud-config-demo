@@ -1,0 +1,10 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: config-customer
+eureka:
+  client:
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://peer1:8801/eureka/
